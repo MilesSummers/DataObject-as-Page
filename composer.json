@@ -17,7 +17,8 @@
 	},
     "extra": {
         "branch-alias": {
-            "dev-master": "ss3.3"
+            "dev-master": "ss3.3",
+            "master": "ss3.3"
         }
     }	
 }

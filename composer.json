@@ -14,11 +14,5 @@
 	{
 		"silverstripe/framework": "~3.3",
 		"silverstripe/cms": "~3.3"
-	},
-    "extra": {
-        "branch-alias": {
-            "dev-master": "ss3.3",
-            "master": "ss3.3"
-        }
-    }	
+	}
 }

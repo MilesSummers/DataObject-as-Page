@@ -332,7 +332,7 @@ class DataObjectAsPage extends DataObject {
 	 */
 	public function isPublished() 
 	{
-		return (DB::query("SELECT \"ID\" FROM \"DataObjectAsPage_Live\" WHERE \"ID\" = $this->ID")->value())
+		return (DB::prepared_query("SELECT \"ID\" FROM \"DataObjectAsPage_Live\" WHERE \"ID\" = $this->ID")->value())
 			? true
 			: false;
 	}

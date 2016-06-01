@@ -154,8 +154,8 @@ class DataObjectAsPageHolder_Controller extends Page_Controller
 		elseif(isset($params['ID']))
 		{
 			//Sanitize
-			$URL = Convert::raw2sql($params['ID']);
-			
+			// $URL = Convert::raw2sql($params['ID']);
+			$URL = $params['ID'];
 			$item = $class::get()->filter("URLSegment", $URL)->first();
 		}		
 		$this->extend('updateCurrentItem', $item);

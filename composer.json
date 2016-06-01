@@ -4,6 +4,7 @@
 	"description": "Manage DataObjects through model admin but display them as pages on the site",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe", "dataobjectasapage"],
+	"homepage": "http://github.com/MilesSummers/DataObject_as_Page",
 	"authors": [
 	{
 		"name": "Aram Balakjian",
